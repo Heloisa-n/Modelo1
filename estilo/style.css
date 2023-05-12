@@ -32,8 +32,8 @@ body {
 }
 
 .img_destaques {
-    height: 180px;
-    width: 180px;
+    height: 10em;
+    width: 10em;
     border-radius: 10px;
 }
 .banner {
