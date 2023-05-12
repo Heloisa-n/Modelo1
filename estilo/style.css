@@ -56,6 +56,9 @@ body {
 }
 
 @media screen and (min-width:768px) {
+    body {
+        width: 100%;
+    }
     .destaques__mobile, .container__carrosel-mobile{
         display: none;
     }
