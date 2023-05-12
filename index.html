@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+
+<body>
+    <div class="fixed-top">
+        <header class="cabecalho">
+            <img src="img/tree.png" alt="logo de Árvore" class="img_logo">
+            <p>Modelo 1</p>
+            <select class="menu-mobile">
+                <option value="" selected="selected">Menu</option>
+                <option value="" disabled="">Titulo 1</option>
+                <option value="">- item 1</option>
+                <option value="">- item 2</option>
+                <option value="">- item 3</option>
+                <option value="" class="separator level1 parent" disabled="">Título 2</option>
+                <option value="">- item 1</option>
+                <option value="">- item 2</option>
+                <option value="">- item 3</option>
+                <option value="" class="separator level1 parent" disabled="">Título 2</option>
+                <option value="">- item 1</option>
+                <option value="">- item 2</option>
+                <option value="">- item 3</option>
+            </select>
+        </header>
+    </div>
+
+    <section class="sessao__carrosel">
+
+        <div class="container__carrosel-mobile">
+            <div class="cassousel">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Fundo1.svg" class="img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/fundo2.svg" class="img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/fundo3.svg" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__carrosel-786px">
+            <div class="container__flex-carrosel">
+                <div class="carrosel-786px">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Fundo1.svg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/fundo2.svg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/fundo3.svg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="destaques">
+        <table class="destaques__mobile">
+            <tr class="destaques__mobile-lista">
+                <td class="destaques__lista-item"><img src="img/destaque1.jpg" class="img_destaques">Destaque 1</td>
+                <td class="destaques__lista-item"><img src="img/destaque2.jpg" class="img_destaques">Destaque 2</td>
+            </tr>
+            <tr>
+                <td class="destaques__lista-item"><img src="img/destaque3.jpg" class="img_destaques">Destaque 3</td>
+                <td class="destaques__lista-item"><img src="img/destaque4.jpg" class="img_destaques">Destaque 4</td>
+            </tr>
+        </table>
+        <ul class="lista__destaque-768px">
+            <li class="item_lista-768px"><img class="img_lista-768px" src="img/destaque1.jpg"
+                    alt="foto em destaque">destaque 1</li>
+            <li class="item_lista-768px"><img class="img_lista-768px" src="img/destaque2.jpg"
+                    alt="foto em destaque">destaque 2</li>
+            <li class="item_lista-768px"><img class="img_lista-768px" src="img/destaque3.jpg"
+                    alt="foto em destaque">destaque 3</li>
+            <li class="item_lista-768px"><img class="img_lista-768px" src="img/destaque4.jpg"
+                    alt="foto em destaque">destaque 4</li>
+        </ul>
+    </section>
+
+    <section class="banner">
+        <img src="img/banner.svg" class="img_banner">
+    </section>
+
+    <footer class="rodape">
+        <ul class="rodape__lista">
+            <div class="container__768px">
+                <div class="rodape__lista-institucional">
+                    <li class="rodape__lista-titulo rodape__lista-item"><strong>Institucional</strong></li>
+                    <li class=" rodape__lista-item"><a href="#">Quem Somos</a></li>
+                    <li class=" rodape__lista-item"><a href="#">Equipe Técnica</a></li>
+                    <li class=" rodape__lista-item"><a href="#">Imprensa</a></li>
+                    <li class=" rodape__lista-item"><a href="#">Parceiros</a></li>
+                    <li class=" rodape__lista-item"><a href="#">Trabalhe Conosco</a></li>
+                </div>
+                <div class="rodape__lista-contatos">
+                    <li class="rodape__lista-titulo rodape__lista-item"><strong>Contato</strong></li>
+                    <li class=" rodape__lista-item">
+                        Endereço, nº
+                        <br>
+                        bairro | Cidade
+                        <br>
+                        telefone
+                        <br>
+                        endereçodeemail@email.com
+                        <br>
+                        --------------------------------
+                        <br>
+                    </li>
+                    <li class="rodape__redesociais">
+                        <a href="#">
+                            <img src="img/icons/fbicon.svg" alt="Facebook" class="rodape__icons">
+                        </a>
+                        <a href="#">
+                            <img src="img/icons/instagramicon.svg" alt="Instagram" class="rodape__icons">
+                        </a>
+                        <a href="#">
+                            <img src="img/icons/youtubeicon.svg" alt="Youtube" class="rodape__icons">
+                        </a>
+                        <a href="#">
+                            <img src="img/icons/linkedinicon.svg" alt="Linkedin" class="rodape__icons">
+                        </a>
+                    </li>
+                </div>
+            </div>
+
+        </ul>
+
+        <section class="parceiros">
+            <p><strong>Parcerias:</strong></p>
+            <div class="container__parceiros">
+                <a href="#" class="parceiros__link">
+                    <img class="parceiros__img" src="img/Parceiro1.png" alt="Parceiro X">
+                    Parceiro 1
+                </a>
+                <a href="#" class="parceiros__link">
+                    <img class="parceiros__img" src="img/Parceiro2.png" alt="Parceiro Y">
+                    Parceiro 2
+                </a>
+                <a href="#" class="parceiros__link">
+                    <img class="parceiros__img" src="img/Parceiro3.png" alt="Parceiro Z">
+                    Parceiro 3
+                </a>
+
+            </div>
+        </section>
+        <div class="copyright">
+            <p>Todos os direitos reservados &copy;</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

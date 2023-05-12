@@ -1,0 +1,36 @@
+.cabecalho {
+    height: 3em;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.cabecalho p {
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0;
+    color: black;
+}
+
+.img_logo {
+    height: 2em;
+    width:2em;
+    text-align: center;
+}
+
+.menu-mobile {
+    width: 48%;
+}
+
+@media screen and (min-width:768px) {
+    .menu-mobile {
+        display: none;
+    }
+    
+    .img_logo {
+        display: none;
+    }
+}    

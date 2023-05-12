@@ -1,0 +1,139 @@
+.rodape {
+
+    background: white;
+    color: rgb(12, 79, 16);
+}
+
+.rodape__lista {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.5rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+.rodape__lista-titulo {
+
+    font-size: 25px;
+}
+
+.rodape__lista-item {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.rodape__icons {
+    height: 25px;
+    width: 25px;
+}
+
+.rodape__redesociais {
+    list-style: none;
+    gap: 1em;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(12, 79, 16);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.parceiros {
+    background: rgb(84, 199, 91);
+    color: white;
+    text-align: center;
+    height: 110px;
+
+}
+
+.parceiros,
+p {
+
+    margin: 0 0 0 0;
+}
+
+.container__parceiros {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+
+}
+
+.parceiros__link {
+    padding: 3px;
+    color: rgb(12, 79, 16);
+    border: 3px solid white;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+}
+
+.parceiros__img {
+    height: 30px;
+    width: 30px;
+
+
+}
+
+
+
+.copyright {
+    background: rgb(12, 79, 16);
+    color: white;
+    text-align: center;
+}
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .container__768px {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .rodape__redesociais {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+    .rodape__icons{
+        height: 5vw;
+        width: 5vw;
+    }
+    .parceiros {
+        height: 150px;
+    }
+
+    .container__parceiros {
+        justify-content: space-evenly;
+    }
+
+    .parceiros__img {
+        height: 70px;
+        width: 90px;
+    }
+
+    .parceiros__link {
+        width: 200px;
+    }
+
+    .copyright {
+        font-size: 2vw;
+        font-weight: lighter;
+    }
+
+}
